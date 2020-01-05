@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: utf-8
+  profiles:
+    active: dev
+loggingout: ${user.dir}/output
+logging:
+  level:
+    web: trace

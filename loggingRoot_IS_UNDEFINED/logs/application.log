@@ -1,0 +1,263 @@
+2020-01-05 00:29:24.560  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m34s431ms).
+2020-01-05 01:10:17.932  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m23s314ms).
+2020-01-05 02:21:20.286  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m2s352ms).
+2020-01-05 03:35:22.641  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m32s344ms).
+2020-01-05 04:26:18.081  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m25s428ms).
+2020-01-05 05:23:01.413  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m13s329ms).
+2020-01-05 07:10:44.747  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m43s334ms).
+2020-01-05 08:58:58.103  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m43s343ms).
+2020-01-05 09:32:09.527  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m41s418ms).
+2020-01-05 10:31:01.873  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m22s330ms).
+2020-01-05 11:00:04.238  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m2s369ms).
+2020-01-05 12:09:51.109  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s185ms).
+2020-01-05 12:47:12.529  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m21s417ms).
+2020-01-05 13:11:32.838  WARN 5574 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m20s58ms).
+2020-01-05 13:13:50.714  INFO 5574 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:13:50.725  INFO 5574 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:13:50.777  INFO 5574 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-05 13:13:50.785  INFO 5574 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-05 13:13:58.324  INFO 6169 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 6169 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-05 13:13:58.327 DEBUG 6169 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-05 13:13:58.329  INFO 6169 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-05 13:13:58.414  INFO 6169 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-05 13:13:58.414  INFO 6169 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-05 13:13:58.415  INFO 6169 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-05 13:13:59.723  INFO 6169 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-05 13:13:59.854  INFO 6169 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 3 JPA repository interfaces.
+2020-01-05 13:14:00.367  INFO 6169 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-05 13:14:00.981  INFO 6169 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-05 13:14:00.995  INFO 6169 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-05 13:14:00.995  INFO 6169 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-05 13:14:01.110  INFO 6169 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-05 13:14:01.110  INFO 6169 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2695 ms
+2020-01-05 13:14:01.419  INFO 6169 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-05 13:14:01.514  INFO 6169 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-05 13:14:01.695  INFO 6169 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-05 13:14:01.821  INFO 6169 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-05 13:14:02.049  INFO 6169 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-05 13:14:02.067  INFO 6169 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-05 13:14:03.118  INFO 6169 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-05 13:14:03.126  INFO 6169 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:14:03.203  INFO 6169 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-05 13:14:03.994  WARN 6169 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-05 13:14:04.270  INFO 6169 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:14:04.406  INFO 6169 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-05 13:14:04.861  INFO 6169 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-05 13:14:04.866  INFO 6169 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 7.351 seconds (JVM running for 8.555)
+2020-01-05 13:16:24.485  INFO 6169 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:16:24.499  INFO 6169 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:16:24.534  INFO 6169 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-05 13:16:24.582  INFO 6169 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-05 13:16:29.746  INFO 6188 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 6188 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-05 13:16:29.751 DEBUG 6188 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-05 13:16:29.752  INFO 6188 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-05 13:16:29.853  INFO 6188 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-05 13:16:29.854  INFO 6188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-05 13:16:29.856  INFO 6188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-05 13:16:30.814  INFO 6188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-05 13:16:30.929  INFO 6188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101ms. Found 3 JPA repository interfaces.
+2020-01-05 13:16:31.381  INFO 6188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-05 13:16:31.872  INFO 6188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-05 13:16:31.882  INFO 6188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-05 13:16:31.883  INFO 6188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-05 13:16:31.973  INFO 6188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-05 13:16:31.974  INFO 6188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2117 ms
+2020-01-05 13:16:32.422  INFO 6188 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-05 13:16:32.489  INFO 6188 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-05 13:16:32.583  INFO 6188 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-05 13:16:32.681  INFO 6188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-05 13:16:32.881  INFO 6188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-05 13:16:32.900  INFO 6188 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-05 13:16:33.744  INFO 6188 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-05 13:16:33.750  INFO 6188 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:16:33.823  INFO 6188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-05 13:16:34.522  WARN 6188 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-05 13:16:34.805  INFO 6188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:16:34.930  INFO 6188 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-05 13:16:35.305  INFO 6188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-05 13:16:35.310  INFO 6188 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 6.65 seconds (JVM running for 7.921)
+2020-01-05 13:19:09.461  INFO 6188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:19:09.474  INFO 6188 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:19:09.494  INFO 6188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-05 13:19:09.512  INFO 6188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-05 13:19:14.914  INFO 6193 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 6193 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-05 13:19:14.917 DEBUG 6193 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-05 13:19:14.917  INFO 6193 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-05 13:19:15.045  INFO 6193 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-05 13:19:15.048  INFO 6193 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-05 13:19:16.209  INFO 6193 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-05 13:19:16.328  INFO 6193 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 3 JPA repository interfaces.
+2020-01-05 13:19:16.852  INFO 6193 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-05 13:19:17.620  INFO 6193 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-05 13:19:17.653  INFO 6193 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-05 13:19:17.654  INFO 6193 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-05 13:19:17.758  INFO 6193 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-05 13:19:17.759 DEBUG 6193 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-05 13:19:17.759  INFO 6193 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2711 ms
+2020-01-05 13:19:17.764 TRACE 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-05 13:19:17.785 TRACE 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-05 13:19:17.785 TRACE 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-05 13:19:17.786 TRACE 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-05 13:19:17.793 DEBUG 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-05 13:19:17.793 DEBUG 6193 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-05 13:19:18.136  INFO 6193 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-05 13:19:18.195  INFO 6193 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-05 13:19:18.297  INFO 6193 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-05 13:19:18.421  INFO 6193 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-05 13:19:18.634  INFO 6193 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-05 13:19:18.650  INFO 6193 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-05 13:19:19.483  INFO 6193 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-05 13:19:19.491  INFO 6193 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:19:19.577  INFO 6193 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-05 13:19:20.297  WARN 6193 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-05 13:19:20.562  INFO 6193 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:19:20.586 DEBUG 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-05 13:19:20.638 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index()
+	{GET /blog}: blog()
+2020-01-05 13:19:20.641 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs}: list()
+2020-01-05 13:19:20.643 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-05 13:19:20.647 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+2020-01-05 13:19:20.651 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+2020-01-05 13:19:20.654 TRACE 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-05 13:19:20.656 DEBUG 6193 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 20 mappings in 'requestMappingHandlerMapping'
+2020-01-05 13:19:20.675  INFO 6193 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-05 13:19:20.692 DEBUG 6193 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-05 13:19:20.711 TRACE 6193 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-05 13:19:20.711 TRACE 6193 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-05 13:19:20.712 DEBUG 6193 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-05 13:19:20.729 DEBUG 6193 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-05 13:19:21.133  INFO 6193 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-05 13:19:21.137  INFO 6193 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 7.363 seconds (JVM running for 9.086)
+2020-01-05 13:20:02.493  INFO 6193 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:20:02.510  INFO 6193 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:20:02.526  INFO 6193 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-05 13:20:02.543  INFO 6193 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-05 13:20:06.977  INFO 6196 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 6196 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-05 13:20:06.986 DEBUG 6196 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-05 13:20:06.987  INFO 6196 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-05 13:20:07.092  INFO 6196 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-05 13:20:07.093  INFO 6196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-05 13:20:08.108  INFO 6196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-05 13:20:08.202  INFO 6196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 3 JPA repository interfaces.
+2020-01-05 13:20:08.692  INFO 6196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-05 13:20:09.246  INFO 6196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-05 13:20:09.257  INFO 6196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-05 13:20:09.258  INFO 6196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-05 13:20:09.348  INFO 6196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-05 13:20:09.349  INFO 6196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2256 ms
+2020-01-05 13:20:09.652  INFO 6196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-05 13:20:09.714  INFO 6196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-05 13:20:09.830  INFO 6196 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-05 13:20:09.942  INFO 6196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-05 13:20:10.169  INFO 6196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-05 13:20:10.179  INFO 6196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-05 13:20:11.008  INFO 6196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-05 13:20:11.014  INFO 6196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:20:11.089  INFO 6196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-05 13:20:11.769  WARN 6196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-05 13:20:12.032  INFO 6196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:20:12.141  INFO 6196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-05 13:20:12.532  INFO 6196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-05 13:20:12.537  INFO 6196 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 6.521 seconds (JVM running for 7.688)
+2020-01-05 13:20:47.356  INFO 6196 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:20:47.361  INFO 6196 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:20:47.379  INFO 6196 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-05 13:20:47.391  INFO 6196 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-05 13:20:51.532  INFO 6200 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 6200 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-05 13:20:51.536 DEBUG 6200 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-05 13:20:51.536  INFO 6200 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-05 13:20:51.666  INFO 6200 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-05 13:20:51.670  INFO 6200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-05 13:20:52.631  INFO 6200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-05 13:20:52.813  INFO 6200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161ms. Found 3 JPA repository interfaces.
+2020-01-05 13:20:53.248  INFO 6200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-05 13:20:53.751  INFO 6200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-05 13:20:53.762  INFO 6200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-05 13:20:53.762  INFO 6200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-05 13:20:53.854  INFO 6200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-05 13:20:53.854 DEBUG 6200 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-05 13:20:53.854  INFO 6200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2180 ms
+2020-01-05 13:20:53.858 TRACE 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-05 13:20:53.878 TRACE 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-05 13:20:53.879 TRACE 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-05 13:20:53.879 TRACE 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-05 13:20:53.884 DEBUG 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-05 13:20:53.885 DEBUG 6200 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-05 13:20:54.147  INFO 6200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-05 13:20:54.202  INFO 6200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-05 13:20:54.299  INFO 6200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-05 13:20:54.392  INFO 6200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-05 13:20:54.594  INFO 6200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-05 13:20:54.611  INFO 6200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-05 13:20:55.469  INFO 6200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-05 13:20:55.477  INFO 6200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-05 13:20:55.552  INFO 6200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-05 13:20:56.208  WARN 6200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-05 13:20:56.468  INFO 6200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-05 13:20:56.491 DEBUG 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-05 13:20:56.552 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index()
+	{GET /blog}: blog()
+2020-01-05 13:20:56.566 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs}: list()
+2020-01-05 13:20:56.570 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-05 13:20:56.577 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+2020-01-05 13:20:56.581 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+2020-01-05 13:20:56.584 TRACE 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-05 13:20:56.587 DEBUG 6200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 20 mappings in 'requestMappingHandlerMapping'
+2020-01-05 13:20:56.608  INFO 6200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-05 13:20:56.634 DEBUG 6200 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-05 13:20:56.674 TRACE 6200 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-05 13:20:56.674 TRACE 6200 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-05 13:20:56.675 DEBUG 6200 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-05 13:20:56.698 DEBUG 6200 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-05 13:20:57.079  INFO 6200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-05 13:20:57.083  INFO 6200 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 6.487 seconds (JVM running for 7.571)

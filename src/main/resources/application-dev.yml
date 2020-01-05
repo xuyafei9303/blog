@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: xuyafei
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+logging:
+  level:
+    root: info
+    com.xyf.blog: debug
+  file:
+    name: log/blog-dev.log
+
+server:
+  port: 9090
+#开发环境
+
+#&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC
