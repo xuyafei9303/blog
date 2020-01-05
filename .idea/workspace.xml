@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05eee9d6-696f-46ae-a8b4-dc2752fc3c1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vn8xvY9gb9kwkgoj2MBqGxxSCO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/admin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyf.blog.util.MD5Utils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyf.blog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyf.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05eee9d6-696f-46ae-a8b4-dc2752fc3c1d" name="Default Changelist" comment="" />
+      <created>1577877749102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577877749102</updated>
+      <workItem from="1577877756653" duration="13704000" />
+      <workItem from="1577961963560" duration="27014000" />
+      <workItem from="1578125878910" duration="10171000" />
+    </task>
+    <task id="LOCAL-00001" summary="个人博客，前端页面完成">
+      <created>1578202239000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578202239000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="个人博客，前端页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人博客，前端页面完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="987" y="137" key="#Assign_Data_Sources" timestamp="1578030928562">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="987" y="137" key="#Assign_Data_Sources/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578030928562" />
+    <state x="530" y="137" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578201481158">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="530" y="137" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201481158" />
+    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser" timestamp="1578140228102">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578140228102" />
+    <state x="570" y="121" key="CommitChangelistDialog2" timestamp="1578202236741">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="570" y="121" key="CommitChangelistDialog2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202236740" />
+    <state width="483" height="466" key="DebuggerActiveHint" timestamp="1578034786311">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="483" height="466" key="DebuggerActiveHint/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578034786311" />
+    <state x="785" y="442" key="Github.CreateGistDialog" timestamp="1578201917824">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="785" y="442" key="Github.CreateGistDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201917824" />
+    <state width="1873" height="611" key="GridCell.Tab.0.bottom" timestamp="1578201689800">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.0.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
+    <state width="1873" height="611" key="GridCell.Tab.0.center" timestamp="1578201689799">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.0.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689799" />
+    <state width="1873" height="611" key="GridCell.Tab.0.left" timestamp="1578201689799">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.0.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689799" />
+    <state width="1873" height="611" key="GridCell.Tab.0.right" timestamp="1578201689800">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.0.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
+    <state width="1873" height="611" key="GridCell.Tab.1.bottom" timestamp="1578201689802">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.1.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689802" />
+    <state width="1873" height="611" key="GridCell.Tab.1.center" timestamp="1578201689801">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.1.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689801" />
+    <state width="1873" height="611" key="GridCell.Tab.1.left" timestamp="1578201689800">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.1.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
+    <state width="1873" height="611" key="GridCell.Tab.1.right" timestamp="1578201689801">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="611" key="GridCell.Tab.1.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689801" />
+    <state width="1873" height="331" key="GridCell.Tab.2.bottom" timestamp="1578125872562">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="331" key="GridCell.Tab.2.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872562" />
+    <state width="1873" height="331" key="GridCell.Tab.2.center" timestamp="1578125872561">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="331" key="GridCell.Tab.2.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872561" />
+    <state width="1873" height="331" key="GridCell.Tab.2.left" timestamp="1578125872560">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="331" key="GridCell.Tab.2.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872560" />
+    <state width="1873" height="331" key="GridCell.Tab.2.right" timestamp="1578125872561">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1873" height="331" key="GridCell.Tab.2.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872561" />
+    <state x="475" y="126" key="SettingsEditor" timestamp="1578202775092">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="475" y="126" key="SettingsEditor/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202775092" />
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578202642945">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202642945" />
+    <state x="119" y="123" width="1715" height="792" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578202374043">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="119" y="123" width="1715" height="792" key="com.intellij.history.integration.ui.views.FileHistoryDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202374043" />
+    <state x="640" y="1312" key="com.intellij.ide.util.TipDialog" timestamp="1577877756977">
+      <screen x="343" y="1103" width="1280" height="777" />
+    </state>
+    <state x="640" y="1312" key="com.intellij.ide.util.TipDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1577877756977" />
+    <state x="564" y="106" width="816" height="825" key="find.popup" timestamp="1578046348930">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="564" y="106" width="816" height="825" key="find.popup/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578046348930" />
+    <state x="770" y="390" key="git4idea.rebase.GitRebaseDialog" timestamp="1578202315343">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="770" y="390" key="git4idea.rebase.GitRebaseDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202315343" />
+    <state x="365" y="192" key="new project wizard" timestamp="1577961438730">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="365" y="192" key="new project wizard/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1577961438730" />
+    <state x="514" y="181" key="run.anything.popup" timestamp="1577877868218">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="514" y="181" key="run.anything.popup/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1577877868218" />
+    <state x="576" y="226" width="670" height="676" key="search.everywhere.popup" timestamp="1578016567836">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="576" y="226" width="670" height="676" key="search.everywhere.popup/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578016567836" />
+  </component>
+</project>
