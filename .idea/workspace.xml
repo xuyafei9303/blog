@@ -2,10 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05eee9d6-696f-46ae-a8b4-dc2752fc3c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/da6e8281-d10e-4d64-a1ab-951d503d3943.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/da6e8281-d10e-4d64-a1ab-951d503d3943/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log.2020-01-05.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log.2020-01-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/util/MyBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/vo/BlogQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/IBlogRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/IBlogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/BlogServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/util/MyBeanUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/vo/BlogQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITagRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/pojo/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/admin/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITagRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITagRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITypeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TagServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/admin/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +78,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_blog: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -46,13 +124,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1Vn8xvY9gb9kwkgoj2MBqGxxSCO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -63,14 +144,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/admin" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -106,7 +187,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - blog@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -125,7 +211,7 @@
       <updated>1577877749102</updated>
       <workItem from="1577877756653" duration="13704000" />
       <workItem from="1577961963560" duration="27014000" />
-      <workItem from="1578125878910" duration="10171000" />
+      <workItem from="1578125878910" duration="43494000" />
     </task>
     <task id="LOCAL-00001" summary="个人博客，前端页面完成">
       <created>1578202239000</created>
@@ -134,15 +220,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578202239000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/xuyafei9303/blog">
+      <created>1578202861304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578202861304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="个人博客，前端页面完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人博客，前端页面完成" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/xuyafei9303/blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/xuyafei9303/blog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="987" y="137" key="#Assign_Data_Sources" timestamp="1578030928562">
@@ -153,14 +248,14 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="530" y="137" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201481158" />
-    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser" timestamp="1578140228102">
+    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser" timestamp="1578366452698">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578140228102" />
-    <state x="570" y="121" key="CommitChangelistDialog2" timestamp="1578202236741">
+    <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578366452698" />
+    <state x="497" y="23" key="CommitChangelistDialog2" timestamp="1578202860974">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="570" y="121" key="CommitChangelistDialog2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202236740" />
+    <state x="497" y="23" key="CommitChangelistDialog2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202860974" />
     <state width="483" height="466" key="DebuggerActiveHint" timestamp="1578034786311">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -169,62 +264,70 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="785" y="442" key="Github.CreateGistDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201917824" />
-    <state width="1873" height="611" key="GridCell.Tab.0.bottom" timestamp="1578201689800">
+    <state width="1860" height="445" key="GridCell.Tab.0.bottom" timestamp="1578369877432">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.0.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
-    <state width="1873" height="611" key="GridCell.Tab.0.center" timestamp="1578201689799">
+    <state width="1860" height="445" key="GridCell.Tab.0.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877432" />
+    <state width="1860" height="445" key="GridCell.Tab.0.center" timestamp="1578369877431">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.0.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689799" />
-    <state width="1873" height="611" key="GridCell.Tab.0.left" timestamp="1578201689799">
+    <state width="1860" height="445" key="GridCell.Tab.0.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877431" />
+    <state width="1860" height="445" key="GridCell.Tab.0.left" timestamp="1578369877430">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.0.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689799" />
-    <state width="1873" height="611" key="GridCell.Tab.0.right" timestamp="1578201689800">
+    <state width="1860" height="445" key="GridCell.Tab.0.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877430" />
+    <state width="1860" height="445" key="GridCell.Tab.0.right" timestamp="1578369877431">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.0.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
-    <state width="1873" height="611" key="GridCell.Tab.1.bottom" timestamp="1578201689802">
+    <state width="1860" height="445" key="GridCell.Tab.0.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877431" />
+    <state width="1860" height="445" key="GridCell.Tab.1.bottom" timestamp="1578369877433">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.1.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689802" />
-    <state width="1873" height="611" key="GridCell.Tab.1.center" timestamp="1578201689801">
+    <state width="1860" height="445" key="GridCell.Tab.1.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877433" />
+    <state width="1860" height="445" key="GridCell.Tab.1.center" timestamp="1578369877432">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.1.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689801" />
-    <state width="1873" height="611" key="GridCell.Tab.1.left" timestamp="1578201689800">
+    <state width="1860" height="445" key="GridCell.Tab.1.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877432" />
+    <state width="1860" height="445" key="GridCell.Tab.1.left" timestamp="1578369877432">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.1.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689800" />
-    <state width="1873" height="611" key="GridCell.Tab.1.right" timestamp="1578201689801">
+    <state width="1860" height="445" key="GridCell.Tab.1.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877432" />
+    <state width="1860" height="445" key="GridCell.Tab.1.right" timestamp="1578369877433">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="611" key="GridCell.Tab.1.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578201689801" />
-    <state width="1873" height="331" key="GridCell.Tab.2.bottom" timestamp="1578125872562">
+    <state width="1860" height="445" key="GridCell.Tab.1.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578369877432" />
+    <state width="1873" height="331" key="GridCell.Tab.2.bottom" timestamp="1578212436323">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="331" key="GridCell.Tab.2.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872562" />
-    <state width="1873" height="331" key="GridCell.Tab.2.center" timestamp="1578125872561">
+    <state width="1873" height="331" key="GridCell.Tab.2.bottom/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578212436323" />
+    <state width="1873" height="331" key="GridCell.Tab.2.center" timestamp="1578212436322">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="331" key="GridCell.Tab.2.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872561" />
-    <state width="1873" height="331" key="GridCell.Tab.2.left" timestamp="1578125872560">
+    <state width="1873" height="331" key="GridCell.Tab.2.center/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578212436322" />
+    <state width="1873" height="331" key="GridCell.Tab.2.left" timestamp="1578212436321">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="331" key="GridCell.Tab.2.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872560" />
-    <state width="1873" height="331" key="GridCell.Tab.2.right" timestamp="1578125872561">
+    <state width="1873" height="331" key="GridCell.Tab.2.left/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578212436321" />
+    <state width="1873" height="331" key="GridCell.Tab.2.right" timestamp="1578212436322">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1873" height="331" key="GridCell.Tab.2.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578125872561" />
+    <state width="1873" height="331" key="GridCell.Tab.2.right/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578212436322" />
+    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1578207234575">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="234" height="457" key="HiddenNamespacesPopup/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578207234575" />
     <state x="475" y="126" key="SettingsEditor" timestamp="1578202775092">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="475" y="126" key="SettingsEditor/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202775092" />
-    <state x="576" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578202642945">
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578202890287">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="576" y="259" key="Vcs.Push.Dialog.v2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202642945" />
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202890287" />
+    <state x="691" y="209" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578233483266">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="691" y="209" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578233483266" />
     <state x="119" y="123" width="1715" height="792" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578202374043">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

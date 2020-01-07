@@ -4,6 +4,8 @@ import com.xyf.blog.pojo.Type;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface ITypeService {
     /**
      * 新增
@@ -41,4 +43,8 @@ public interface ITypeService {
     void deleteType(Long id);
 
     Type getTypeByName(String name);
+
+    List<Type> listType();
+
+    List<Type> listTypeTop(Integer size);
 }

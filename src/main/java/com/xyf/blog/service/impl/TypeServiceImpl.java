@@ -4,13 +4,16 @@ import com.xyf.blog.NotFoundException;
 import com.xyf.blog.dao.ITypeRepository;
 import com.xyf.blog.pojo.Type;
 import com.xyf.blog.service.ITypeService;
-import jdk.nashorn.internal.runtime.options.Option;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
 public class TypeServiceImpl implements ITypeService {
@@ -22,6 +25,13 @@ public class TypeServiceImpl implements ITypeService {
     @Transactional
     public Type saveType(Type type) {
         return typeRepository.save(type);
+    }
+
+    @Override
+    public List<Type> listTypeTop(Integer size) {
+        Sort sort = Sort.by(Sort.Direction.DESC, "blogs.size");
+        Pageable pageable = PageRequest.of(0, size, sort);
+        return typeRepository.findTop(pageable);
     }
 
     @Override
@@ -39,6 +49,11 @@ public class TypeServiceImpl implements ITypeService {
     @Transactional
     public Page<Type> listType(Pageable pageable) {
         return typeRepository.findAll(pageable);
+    }
+
+    @Override
+    public List<Type> listType() {
+        return typeRepository.findAll();
     }
 
     @Override
