@@ -42,31 +42,31 @@
             <div class="ui top attached segment">
                 <div class="ui horizontal link list">
                     <div class="item">
-                        <img src="../static/images/WechatIMG1.jpeg" alt="" class="ui avatar image">
-                        <div class="content"><a href="#" class="header">xuyafei</a></div>
+                        <img src="../static/images/WechatIMG1.jpeg" alt="" th:src="@{${blog.user.avatar}}" class="ui avatar image">
+                        <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">xuyafei</a></div>
                     </div>
                     <div class="item">
-                        <i class="calendar icon"></i> 2019-10-01
+                        <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime, 'yyyy-MM-dd')}">2019-10-01</span>
                     </div>
                     <div class="item">
-                        <i class="eye icon"></i> 2889
+                        <i class="eye icon"></i><span th:text="${blog.views}"> 2889</span>
                     </div>
                 </div>
             </div>
             <div class="ui attached padded segment">
 <!--                图片区域-->
-                <img src="https://picsum.photos/id/1008/800/450" class="ui fluid rounded image" alt="">
+                <img src="https://picsum.photos/id/1008/800/450" th:src="@{${blog.firstPicture}}" class="ui fluid rounded image" alt="">
             </div>
             <div class="ui  padded attached segment">
 <!--                内容-->
                 <div class="ui right aligned basic segment">
-                    <div class="ui orange basic label">原创</div>
+                    <div class="ui orange basic label" th:text="${blog.flag}">原创</div>
                 </div>
 
-                <h2 class="ui center aligned header">SpringCloud之Eureka</h2>
+                <h2 class="ui center aligned header" th:text="${blog.title}">SpringCloud之Eureka</h2>
 
 <!--                <br>-->
-                <div id="content" class=" typo typo-selection js-toc-content m-padded-lr-responsive m-padded-tb-large">
+                <div id="content" class=" typo typo-selection js-toc-content m-padded-lr-responsive m-padded-tb-large" th:text="${blog.content}">
                     <h2 id="tagline" class="serif">一致化浏览器排版效果，构建最适合中文阅读的网页排版</h2>
 
                     <ol id="table">
@@ -443,7 +443,7 @@ h5,h6{font-size:1em;}
 
 <!--            标签-->
                 <div class="m-padded-lr-responsive">
-                    <div class="ui basic teal left pointing label">方法论</div>
+                    <div class="ui basic teal left pointing label"th:each="tag : ${blog.tags}" th:text="${tag.name}">方法论</div>
                 </div>
 <!--            赞赏-->
                 <div class="ui center aligned basic segment">
@@ -453,17 +453,16 @@ h5,h6{font-size:1em;}
                     <div class="ui orange basic label">
                         <div class="ui images" style="font-size: inherit !important;">
                             <div class="image">
-                                <img src="../static/images/WechatIMG4.jpeg" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <img src="../static/images/alipay.jpeg" th:src="@{/images/alipay.jpeg}" alt="" class="ui rounded bordered image" style="width: 120px">
                                 <div>支付宝</div>
                             </div>
                             <div class="image">
-                                <img src="../static/images/WechatIMG4.jpeg" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <img src="../static/images/WechatIMG4.jpeg" th:src="@{/images/WechatIMG4.jpeg}" alt="" class="ui rounded bordered image" style="width: 120px">
                                 <div>微信</div>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
             <div class="ui attached positive message">
@@ -471,14 +470,14 @@ h5,h6{font-size:1em;}
                 <div class="ui middle aligned grid">
                     <div class="eleven wide column">
                         <ul class="list">
-                            <li>作者：徐亚飞（联系作者）</li>
-                            <li>发表时间：2017-10-02  09:08</li>
+                            <li>作者：<span th:text="${blog.user.nickname}">徐亚飞</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
+                            <li>发表时间：<span th:text="${#dates.format(blog.updateTime, 'yyyy-MM-dd HH:mm')}">2017-10-02 09：08</span></li>
                             <li>版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）</li>
                             <li>公众号转载：请在文末添加作者公众号二维码</li>
                         </ul>
                     </div>
                     <div class="five wide column">
-                        <img src="../static/images/WechatIMG4.jpeg" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+                        <img src="../static/images/WechatIMG4.jpeg" th:src="@{/images/WechatIMG4.jpeg}" alt="" class="ui right floated rounded bordered image" style="width: 110px">
                     </div>
                 </div>
             </div>

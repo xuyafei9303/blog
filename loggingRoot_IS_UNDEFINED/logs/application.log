@@ -3336,3 +3336,1074 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2020-01-07 11:30:27.047 DEBUG 11092 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
 2020-01-07 11:30:27.603  INFO 11092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
 2020-01-07 11:30:27.608  INFO 11092 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 7.106 seconds (JVM running for 8.422)
+2020-01-07 12:12:00.959  INFO 11092 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:12:00.974  INFO 11092 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:12:01.013  INFO 11092 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 12:12:01.043  INFO 11092 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 12:12:07.945  INFO 11268 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 11268 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-07 12:12:07.950 DEBUG 11268 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-07 12:12:07.951  INFO 11268 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-07 12:12:08.076  INFO 11268 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-07 12:12:08.077  INFO 11268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 12:12:09.245  INFO 11268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-07 12:12:09.376  INFO 11268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 4 JPA repository interfaces.
+2020-01-07 12:12:09.852  INFO 11268 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 12:12:10.410  INFO 11268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-07 12:12:10.421  INFO 11268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 12:12:10.422  INFO 11268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 12:12:10.533  INFO 11268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 12:12:10.533 DEBUG 11268 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-07 12:12:10.534  INFO 11268 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2457 ms
+2020-01-07 12:12:10.538 TRACE 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-07 12:12:10.561 TRACE 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-07 12:12:10.561 TRACE 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-07 12:12:10.561 TRACE 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-07 12:12:10.566 DEBUG 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-07 12:12:10.567 DEBUG 11268 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-07 12:12:11.091  INFO 11268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-07 12:12:11.462  INFO 11268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-07 12:12:11.931  INFO 11268 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-07 12:12:12.259  INFO 11268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 12:12:13.007  INFO 11268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 12:12:13.029  INFO 11268 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-07 12:12:14.420  INFO 11268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-07 12:12:14.433  INFO 11268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:12:14.558  INFO 11268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 12:12:15.686  WARN 11268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 12:12:16.004  INFO 11268 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:12:16.034 DEBUG 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-07 12:12:16.102 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index(Pageable,Model)
+	{POST /search}: search(Pageable,String,Model)
+	{GET /blog}: blog()
+2020-01-07 12:12:16.111 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs/{id}/delete}: delete(RedirectAttributes,Long)
+	{POST /admin/blogs/search}: search(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/input}: input(Model)
+	{GET /admin/blogs}: blogs(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/{id}/input}: editInput(Long,Model)
+	{POST /admin/blogs}: post(Blog,RedirectAttributes,HttpSession)
+2020-01-07 12:12:16.116 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-07 12:12:16.119 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+2020-01-07 12:12:16.129 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+2020-01-07 12:12:16.134 TRACE 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-07 12:12:16.137 DEBUG 11268 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2020-01-07 12:12:16.164  INFO 11268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 12:12:16.183 DEBUG 11268 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-07 12:12:16.208 TRACE 11268 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-07 12:12:16.209 TRACE 11268 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-07 12:12:16.211 DEBUG 11268 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-07 12:12:16.246 DEBUG 11268 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-07 12:12:16.925  INFO 11268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-07 12:12:16.930  INFO 11268 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 10.333 seconds (JVM running for 11.801)
+2020-01-07 12:12:29.956  INFO 11268 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:29.960  INFO 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 12:12:29.961 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@25b9c038
+2020-01-07 12:12:29.992 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-01-07 12:12:30.003 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-01-07 12:12:30.010 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-01-07 12:12:30.021 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-01-07 12:12:30.021 DEBUG 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-01-07 12:12:30.022  INFO 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 61 ms
+2020-01-07 12:12:30.045 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/search", parameters={masked}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:30.076 TRACE 11268 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#search(Pageable, String, Model)
+2020-01-07 12:12:30.150 TRACE 11268 --- [http-nio-9090-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [Page request [number: 0, size 6, sort: updateTime: DESC], springcloud, {}]
+2020-01-07 12:12:30.157  INFO 11268 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 12:12:30.158  INFO 11268 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/search', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.search()', args=[Page request [number: 0, size 6, sort: updateTime: DESC], springcloud, {}]}
+2020-01-07 12:12:30.410  INFO 11268 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 12:12:30.410  INFO 11268 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【result】: search 
+2020-01-07 12:12:30.440 DEBUG 11268 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 12:12:30.441 TRACE 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@4f9973c7] 
+2020-01-07 12:12:31.221 DEBUG 11268 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.340 TRACE 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.345 TRACE 11268 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.348 TRACE 11268 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.351 TRACE 11268 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.351 TRACE 11268 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.353 TRACE 11268 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.355 TRACE 11268 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.357 TRACE 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.359 TRACE 11268 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.358 TRACE 11268 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.392 TRACE 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.395 TRACE 11268 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.412 TRACE 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.412 DEBUG 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.417 TRACE 11268 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.418 DEBUG 11268 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.419 TRACE 11268 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.420 DEBUG 11268 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.420 TRACE 11268 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.421 DEBUG 11268 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.421 TRACE 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.422 DEBUG 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.422 TRACE 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.426 DEBUG 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.435 TRACE 11268 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.436 TRACE 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.437 TRACE 11268 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.435 TRACE 11268 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.436 TRACE 11268 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.438 TRACE 11268 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.438 TRACE 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.441 TRACE 11268 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.462 TRACE 11268 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.462 TRACE 11268 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.462 DEBUG 11268 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.462 DEBUG 11268 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.492 TRACE 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.493 DEBUG 11268 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.496 TRACE 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.496 DEBUG 11268 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:12:31.841 TRACE 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:12:31.842 TRACE 11268 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:12:31.850 TRACE 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:12:31.851 DEBUG 11268 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:29:26.789  INFO 11268 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:29:26.810  INFO 11268 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:29:26.845  INFO 11268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 12:29:26.864  INFO 11268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 12:29:36.106  INFO 11358 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 11358 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-07 12:29:36.112 DEBUG 11358 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-07 12:29:36.134  INFO 11358 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-07 12:29:36.262  INFO 11358 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-07 12:29:36.262  INFO 11358 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 12:29:37.319  INFO 11358 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-07 12:29:37.441  INFO 11358 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 4 JPA repository interfaces.
+2020-01-07 12:29:37.947  INFO 11358 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 12:29:38.496  INFO 11358 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-07 12:29:38.508  INFO 11358 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 12:29:38.509  INFO 11358 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 12:29:38.613  INFO 11358 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 12:29:38.614 DEBUG 11358 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-07 12:29:38.614  INFO 11358 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2351 ms
+2020-01-07 12:29:38.618 TRACE 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-07 12:29:38.639 TRACE 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-07 12:29:38.640 TRACE 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-07 12:29:38.640 TRACE 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-07 12:29:38.647 DEBUG 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-07 12:29:38.647 DEBUG 11358 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-07 12:29:38.965  INFO 11358 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-07 12:29:39.034  INFO 11358 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-07 12:29:39.156  INFO 11358 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-07 12:29:39.258  INFO 11358 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 12:29:39.491  INFO 11358 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 12:29:39.507  INFO 11358 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-07 12:29:40.446  INFO 11358 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-07 12:29:40.456  INFO 11358 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:29:40.542  INFO 11358 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 12:29:41.588  WARN 11358 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 12:29:41.910  INFO 11358 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:29:41.942 DEBUG 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-07 12:29:42.002 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index(Pageable,Model)
+	{POST /search}: search(Pageable,String,Model)
+	{GET /blog/{id}: blog(Long,Model)
+2020-01-07 12:29:42.009 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs/{id}/delete}: delete(RedirectAttributes,Long)
+	{POST /admin/blogs/search}: search(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/input}: input(Model)
+	{GET /admin/blogs}: blogs(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/{id}/input}: editInput(Long,Model)
+	{POST /admin/blogs}: post(Blog,RedirectAttributes,HttpSession)
+2020-01-07 12:29:42.011 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-07 12:29:42.014 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+2020-01-07 12:29:42.021 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+2020-01-07 12:29:42.025 TRACE 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-07 12:29:42.028 DEBUG 11358 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2020-01-07 12:29:42.053  INFO 11358 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 12:29:42.075 DEBUG 11358 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-07 12:29:42.099 TRACE 11358 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-07 12:29:42.100 TRACE 11358 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-07 12:29:42.103 DEBUG 11358 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-07 12:29:42.126 DEBUG 11358 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-07 12:29:42.876  INFO 11358 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-07 12:29:42.880  INFO 11358 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 8.096 seconds (JVM running for 9.666)
+2020-01-07 12:30:00.076  INFO 11358 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.077  INFO 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 12:30:00.077 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@8d6513c
+2020-01-07 12:30:00.080 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-01-07 12:30:00.083 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-01-07 12:30:00.086 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-01-07 12:30:00.092 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-01-07 12:30:00.092 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-01-07 12:30:00.092  INFO 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-01-07 12:30:00.104 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.109 TRACE 11358 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#index(Pageable, Model)
+2020-01-07 12:30:00.133 TRACE 11358 --- [http-nio-9090-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [Page request [number: 0, size 6, sort: updateTime: DESC], {}]
+2020-01-07 12:30:00.139  INFO 11358 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 12:30:00.139  INFO 11358 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.index()', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2020-01-07 12:30:00.253  WARN 11358 --- [http-nio-9090-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-07 12:30:00.272  WARN 11358 --- [http-nio-9090-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-07 12:30:00.280  INFO 11358 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 12:30:00.280  INFO 11358 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【result】: index 
+2020-01-07 12:30:00.304 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 12:30:00.304 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@4f1c1548] 
+2020-01-07 12:30:00.876 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.877 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.876 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.883 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.883 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:00.890 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:00.893 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:00.893 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:00.893 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:00.893 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:00.893 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.048 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.048 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.053 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.054 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.056 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.057 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.057 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.057 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.058 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.057 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.076 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.076 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.076 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.077 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.077 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.077 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.080 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.080 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.081 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.081 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.082 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.083 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.101 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.102 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.104 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.106 TRACE 11358 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.107 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.107 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.116 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.117 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:01.218 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:01.219 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:01.224 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:01.225 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.287 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/blog/30", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.290 TRACE 11358 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.292 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 12:30:04.292 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.292 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 12:30:04.299 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.301 TRACE 11358 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error, produces [text/html]}, { /error}]
+2020-01-07 12:30:04.301 TRACE 11358 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-01-07 12:30:04.302 TRACE 11358 --- [http-nio-9090-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@27273b70, org.apache.catalina.connector.ResponseFacade@2b53ad48]
+2020-01-07 12:30:04.318 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-07 12:30:04.318 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1a1bab63] 
+2020-01-07 12:30:04.352 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 12:30:04.579 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.579 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.579 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.580 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.580 TRACE 11358 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.580 TRACE 11358 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.582 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.582 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.583 DEBUG 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.583 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.583 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.583 DEBUG 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.585 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.586 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.591 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.592 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.599 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.600 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.605 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.605 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.607 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.610 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.612 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.613 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.652 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.652 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.653 TRACE 11358 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.653 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.655 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.655 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.656 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.656 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.657 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.657 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.658 TRACE 11358 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.658 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.661 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.661 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.662 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.662 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:04.723 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:04.725 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:04.726 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:04.727 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.229 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/search", parameters={masked}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.230 TRACE 11358 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#search(Pageable, String, Model)
+2020-01-07 12:30:16.235 TRACE 11358 --- [http-nio-9090-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [Page request [number: 0, size 6, sort: updateTime: DESC], zuul, {}]
+2020-01-07 12:30:16.236  INFO 11358 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 12:30:16.236  INFO 11358 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/search', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.search()', args=[Page request [number: 0, size 6, sort: updateTime: DESC], zuul, {}]}
+2020-01-07 12:30:16.251  INFO 11358 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 12:30:16.251  INFO 11358 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : 【result】: search 
+2020-01-07 12:30:16.254 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 12:30:16.255 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@41380fe] 
+2020-01-07 12:30:16.294 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.406 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.407 TRACE 11358 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.409 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.410 DEBUG 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.411 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.412 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.412 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.412 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.413 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.413 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.414 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.414 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.414 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.415 TRACE 11358 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.419 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.420 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.420 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.420 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.421 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.421 DEBUG 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.508 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.509 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.512 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.512 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.523 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.523 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.523 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.524 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.524 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.524 TRACE 11358 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.526 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.526 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.527 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.527 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.527 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.526 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.528 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.529 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.531 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.531 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:16.583 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:16.584 TRACE 11358 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:16.589 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:16.589 DEBUG 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.169 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/blog/28", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.170 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.172 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 12:30:18.172 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.172 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 12:30:18.173 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.173 TRACE 11358 --- [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error, produces [text/html]}, { /error}]
+2020-01-07 12:30:18.174 TRACE 11358 --- [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-01-07 12:30:18.174 TRACE 11358 --- [http-nio-9090-exec-5] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@74cabd56, org.apache.catalina.connector.ResponseFacade@5fc0b129]
+2020-01-07 12:30:18.179 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.v.InternalResourceViewResolver   : View with key [error/404] served from cache
+2020-01-07 12:30:18.181 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-07 12:30:18.181 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@5944cb59] 
+2020-01-07 12:30:18.201 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 12:30:18.375 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.376 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.375 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.377 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.378 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.378 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.379 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.380 TRACE 11358 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.383 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.383 DEBUG 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.380 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.385 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.385 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.389 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.390 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.391 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.394 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.394 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.395 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.395 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.399 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.400 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.406 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.407 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.470 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.476 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.477 TRACE 11358 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.479 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.479 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.474 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.471 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.481 TRACE 11358 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.477 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.484 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.484 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.484 DEBUG 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.488 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.489 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.491 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.491 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:30:18.544 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:30:18.545 TRACE 11358 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:30:18.549 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:30:18.549 DEBUG 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.135 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/blog/28", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.140 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.147 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 12:31:07.147 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.147 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 12:31:07.153 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.157 TRACE 11358 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error, produces [text/html]}, { /error}]
+2020-01-07 12:31:07.159 TRACE 11358 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-01-07 12:31:07.161 TRACE 11358 --- [http-nio-9090-exec-4] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@624f84e3, org.apache.catalina.connector.ResponseFacade@111f69be]
+2020-01-07 12:31:07.174 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.v.InternalResourceViewResolver   : View with key [error/404] served from cache
+2020-01-07 12:31:07.174 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-07 12:31:07.174 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@409f3451] 
+2020-01-07 12:31:07.241 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 12:31:07.673 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.674 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.674 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.674 TRACE 11358 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.674 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.675 TRACE 11358 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.673 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.678 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.678 TRACE 11358 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.678 TRACE 11358 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.687 TRACE 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.687 TRACE 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.688 DEBUG 11358 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.691 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.691 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.688 DEBUG 11358 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.702 TRACE 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.702 DEBUG 11358 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.706 TRACE 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.708 DEBUG 11358 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.710 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.712 TRACE 11358 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.723 TRACE 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.723 DEBUG 11358 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.768 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.769 TRACE 11358 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.771 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.772 TRACE 11358 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.777 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.779 TRACE 11358 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.787 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.789 TRACE 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.789 DEBUG 11358 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.794 TRACE 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.795 DEBUG 11358 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.797 TRACE 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.797 DEBUG 11358 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.789 TRACE 11358 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.805 TRACE 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.806 DEBUG 11358 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:07.866 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 12:31:07.867 TRACE 11358 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 12:31:07.870 TRACE 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 12:31:07.870 DEBUG 11358 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 12:31:51.706  INFO 11358 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:31:51.707  INFO 11358 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:31:51.714  INFO 11358 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 12:31:51.725  INFO 11358 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 12:31:59.007  INFO 11370 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 11370 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-07 12:31:59.012 DEBUG 11370 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-07 12:31:59.013  INFO 11370 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-07 12:31:59.083  INFO 11370 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-07 12:31:59.084  INFO 11370 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 12:32:00.014  INFO 11370 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-07 12:32:00.125  INFO 11370 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 4 JPA repository interfaces.
+2020-01-07 12:32:00.575  INFO 11370 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 12:32:01.027  INFO 11370 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-07 12:32:01.036  INFO 11370 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 12:32:01.037  INFO 11370 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 12:32:01.126  INFO 11370 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 12:32:01.126 DEBUG 11370 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-07 12:32:01.126  INFO 11370 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2038 ms
+2020-01-07 12:32:01.130 TRACE 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-07 12:32:01.151 TRACE 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-07 12:32:01.151 TRACE 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-07 12:32:01.151 TRACE 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-07 12:32:01.157 DEBUG 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-07 12:32:01.157 DEBUG 11370 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-07 12:32:01.420  INFO 11370 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-07 12:32:01.474  INFO 11370 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-07 12:32:01.567  INFO 11370 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-07 12:32:01.651  INFO 11370 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 12:32:01.841  INFO 11370 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 12:32:01.850  INFO 11370 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-07 12:32:02.618  INFO 11370 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-07 12:32:02.625  INFO 11370 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 12:32:02.695  INFO 11370 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 12:32:03.478  WARN 11370 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 12:32:03.753  INFO 11370 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 12:32:03.776 DEBUG 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-07 12:32:03.827 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index(Pageable,Model)
+	{POST /search}: search(Pageable,String,Model)
+	{GET /blog/{id}}: blog(Long,Model)
+2020-01-07 12:32:03.832 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs/{id}/delete}: delete(RedirectAttributes,Long)
+	{POST /admin/blogs/search}: search(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/input}: input(Model)
+	{GET /admin/blogs}: blogs(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/{id}/input}: editInput(Long,Model)
+	{POST /admin/blogs}: post(Blog,RedirectAttributes,HttpSession)
+2020-01-07 12:32:03.834 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-07 12:32:03.836 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+2020-01-07 12:32:03.841 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+2020-01-07 12:32:03.843 TRACE 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-07 12:32:03.846 DEBUG 11370 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2020-01-07 12:32:03.865  INFO 11370 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 12:32:03.884 DEBUG 11370 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-07 12:32:03.904 TRACE 11370 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-07 12:32:03.905 TRACE 11370 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-07 12:32:03.905 DEBUG 11370 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-07 12:32:03.922 DEBUG 11370 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-07 12:32:04.517  INFO 11370 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-07 12:32:04.520  INFO 11370 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 6.52 seconds (JVM running for 7.586)
+2020-01-07 14:24:12.216  INFO 11370 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:12.221  INFO 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 14:24:12.226 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@55c49284
+2020-01-07 14:24:12.242 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-01-07 14:24:12.247 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-01-07 14:24:12.261 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-01-07 14:24:12.269 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-01-07 14:24:12.269 DEBUG 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-01-07 14:24:12.270  INFO 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2020-01-07 14:24:12.291 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/blog/28", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:12.305 TRACE 11370 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#blog(Long, Model)
+2020-01-07 14:24:12.345 TRACE 11370 --- [http-nio-9090-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [28, {}]
+2020-01-07 14:24:12.352  INFO 11370 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 14:24:12.352  INFO 11370 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/blog/28', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.blog()', args=[28, {}]}
+2020-01-07 14:24:12.434  INFO 11370 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 14:24:12.435  INFO 11370 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【result】: blog 
+2020-01-07 14:24:12.485 DEBUG 11370 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 14:24:12.486 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1069c858] 
+2020-01-07 14:24:13.187 DEBUG 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.408 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.408 TRACE 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.438 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.440 TRACE 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.456 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.459 TRACE 11370 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.459 TRACE 11370 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.459 TRACE 11370 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.459 TRACE 11370 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.459 TRACE 11370 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.533 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.543 TRACE 11370 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.546 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.546 DEBUG 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.546 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.547 DEBUG 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.547 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.549 TRACE 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.550 DEBUG 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.549 DEBUG 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.551 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.551 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.551 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.552 DEBUG 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.552 TRACE 11370 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.552 TRACE 11370 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.553 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.554 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.554 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.555 DEBUG 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.555 DEBUG 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.559 TRACE 11370 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.564 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.564 DEBUG 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.566 TRACE 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.569 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.570 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/images/alipay.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.570 TRACE 11370 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.571 TRACE 11370 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.573 DEBUG 11370 --- [http-nio-9090-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 14:24:13.573 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.574 DEBUG 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 14:24:13.575 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.575 DEBUG 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.577 DEBUG 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:13.582 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.583 TRACE 11370 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-01-07 14:24:13.583 TRACE 11370 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-01-07 14:24:13.586 TRACE 11370 --- [http-nio-9090-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@198203da]
+2020-01-07 14:24:13.643 DEBUG 11370 --- [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-01-07 14:24:13.688 TRACE 11370 --- [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jan 07 14:24:13 CST 2020, status=404, error=Not Found, message=No message available, path=/images/alipay.jpeg}]
+2020-01-07 14:24:13.945 TRACE 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:13.947 TRACE 11370 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:13.949 TRACE 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:13.950 DEBUG 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:14.402 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:14.412 DEBUG 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 14:24:23.147 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/about", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.149 TRACE 11370 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.152 DEBUG 11370 --- [http-nio-9090-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 14:24:23.152 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.152 DEBUG 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 14:24:23.153 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.153 TRACE 11370 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error, produces [text/html]}, { /error}]
+2020-01-07 14:24:23.154 TRACE 11370 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-01-07 14:24:23.155 TRACE 11370 --- [http-nio-9090-exec-6] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3631db1, org.apache.catalina.connector.ResponseFacade@3a1c4837]
+2020-01-07 14:24:23.165 DEBUG 11370 --- [http-nio-9090-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-07 14:24:23.166 TRACE 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@56fa8a34] 
+2020-01-07 14:24:23.191 DEBUG 11370 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 14:24:23.399 TRACE 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.400 TRACE 11370 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.400 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.401 TRACE 11370 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.403 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.403 TRACE 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.403 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.403 TRACE 11370 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.404 DEBUG 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.399 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.400 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.406 TRACE 11370 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.403 DEBUG 11370 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.410 TRACE 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.410 DEBUG 11370 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.411 TRACE 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.406 TRACE 11370 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.411 DEBUG 11370 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.421 TRACE 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.424 DEBUG 11370 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.432 TRACE 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.432 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.433 TRACE 11370 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.433 TRACE 11370 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.433 TRACE 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.434 TRACE 11370 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.438 TRACE 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.438 DEBUG 11370 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.438 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.439 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.439 DEBUG 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.440 TRACE 11370 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.441 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.442 TRACE 11370 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.445 TRACE 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.449 TRACE 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.449 DEBUG 11370 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.449 TRACE 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.450 DEBUG 11370 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.449 DEBUG 11370 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:24:23.559 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:24:23.561 TRACE 11370 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:24:23.564 TRACE 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:24:23.564 DEBUG 11370 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:06.198  INFO 11370 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 14:29:06.203  INFO 11370 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 14:29:06.217  INFO 11370 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 14:29:06.224  INFO 11370 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 14:29:11.879  INFO 11594 --- [restartedMain] com.xyf.blog.BlogApplication             : Starting BlogApplication on xuyafeideMacBook-Pro-2.local with PID 11594 (/Users/xuyafei/Documents/idea-projects/blog/target/classes started by xuyafei in /Users/xuyafei/Documents/idea-projects/blog)
+2020-01-07 14:29:11.887 DEBUG 11594 --- [restartedMain] com.xyf.blog.BlogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-07 14:29:11.887  INFO 11594 --- [restartedMain] com.xyf.blog.BlogApplication             : The following profiles are active: dev
+2020-01-07 14:29:11.952  INFO 11594 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/xuyafei/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-07 14:29:11.952  INFO 11594 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 14:29:12.798  INFO 11594 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-07 14:29:12.906  INFO 11594 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98ms. Found 4 JPA repository interfaces.
+2020-01-07 14:29:13.319  INFO 11594 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 14:29:13.766  INFO 11594 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-07 14:29:13.776  INFO 11594 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 14:29:13.776  INFO 11594 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 14:29:13.861  INFO 11594 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 14:29:13.862 DEBUG 11594 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-07 14:29:13.862  INFO 11594 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1907 ms
+2020-01-07 14:29:13.866 TRACE 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-01-07 14:29:13.884 TRACE 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-01-07 14:29:13.884 TRACE 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-01-07 14:29:13.884 TRACE 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-01-07 14:29:13.889 DEBUG 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-01-07 14:29:13.889 DEBUG 11594 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-01-07 14:29:14.150  INFO 11594 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-07 14:29:14.203  INFO 11594 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-07 14:29:14.298  INFO 11594 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-07 14:29:14.383  INFO 11594 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 14:29:14.578  INFO 11594 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 14:29:14.588  INFO 11594 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-07 14:29:15.351  INFO 11594 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-07 14:29:15.357  INFO 11594 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 14:29:15.426  INFO 11594 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 14:29:16.213  WARN 11594 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 14:29:16.441  INFO 11594 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 14:29:16.462 DEBUG 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-07 14:29:16.511 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.IndexController:
+	{GET /}: index(Pageable,Model)
+	{POST /search}: search(Pageable,String,Model)
+	{GET /blog/{id}}: blog(Long,Model)
+2020-01-07 14:29:16.517 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.BlogController:
+	{GET /admin/blogs/{id}/delete}: delete(RedirectAttributes,Long)
+	{POST /admin/blogs/search}: search(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/input}: input(Model)
+	{GET /admin/blogs}: blogs(Pageable,BlogQuery,Model)
+	{GET /admin/blogs/{id}/input}: editInput(Long,Model)
+	{POST /admin/blogs}: post(Blog,RedirectAttributes,HttpSession)
+2020-01-07 14:29:16.519 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.LoginController:
+	{POST /admin/login}: login(String,String,HttpSession,RedirectAttributes)
+	{GET /admin}: loginPage()
+	{GET /admin/logout}: logout(HttpSession)
+2020-01-07 14:29:16.521 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TagController:
+	{GET /admin/tags/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/tags}: list(Pageable,Model)
+	{GET /admin/tags/input}: input(Model)
+	{GET /admin/tags/{id}/input}: editInput(Long,Model)
+	{POST /admin/tags}: post(Tag,BindingResult,RedirectAttributes)
+	{POST /admin/tags/{id}}: editPost(Tag,BindingResult,Long,RedirectAttributes)
+2020-01-07 14:29:16.524 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.x.b.w.a.TypeController:
+	{GET /admin/types/{id}/delete}: delete(Long,RedirectAttributes)
+	{GET /admin/types}: list(Pageable,Model)
+	{GET /admin/types/input}: input(Model)
+	{GET /admin/types/{id}/input}: editInput(Long,Model)
+	{POST /admin/types}: post(Type,BindingResult,RedirectAttributes)
+	{POST /admin/types/{id}}: editPost(Type,BindingResult,Long,RedirectAttributes)
+2020-01-07 14:29:16.527 TRACE 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2020-01-07 14:29:16.529 DEBUG 11594 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2020-01-07 14:29:16.549  INFO 11594 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 14:29:16.563 DEBUG 11594 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-01-07 14:29:16.579 TRACE 11594 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-01-07 14:29:16.579 TRACE 11594 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-07 14:29:16.580 DEBUG 11594 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-07 14:29:16.593 DEBUG 11594 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-07 14:29:17.130  INFO 11594 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-07 14:29:17.135  INFO 11594 --- [restartedMain] com.xyf.blog.BlogApplication             : Started BlogApplication in 6.39 seconds (JVM running for 7.59)
+2020-01-07 14:29:43.505  INFO 11594 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:43.506  INFO 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 14:29:43.506 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@6033c106
+2020-01-07 14:29:43.509 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-01-07 14:29:43.512 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-01-07 14:29:43.516 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-01-07 14:29:43.520 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-01-07 14:29:43.520 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-01-07 14:29:43.521  INFO 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-01-07 14:29:43.532 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:43.535 TRACE 11594 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#index(Pageable, Model)
+2020-01-07 14:29:43.554 TRACE 11594 --- [http-nio-9090-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [Page request [number: 0, size 6, sort: updateTime: DESC], {}]
+2020-01-07 14:29:43.560  INFO 11594 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 14:29:43.560  INFO 11594 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.index()', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2020-01-07 14:29:43.668  WARN 11594 --- [http-nio-9090-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-07 14:29:43.684  WARN 11594 --- [http-nio-9090-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-07 14:29:43.691  INFO 11594 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 14:29:43.691  INFO 11594 --- [http-nio-9090-exec-1] com.xyf.blog.aspect.LogAspect            : 【result】: index 
+2020-01-07 14:29:43.715 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 14:29:43.715 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@50812def] 
+2020-01-07 14:29:44.270 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.271 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.272 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.276 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.278 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.298 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.299 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.305 TRACE 11594 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.305 TRACE 11594 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.305 TRACE 11594 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.329 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.330 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.331 DEBUG 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.331 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.332 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.331 DEBUG 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.333 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.333 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.333 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.333 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.422 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.469 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.470 TRACE 11594 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.473 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.473 DEBUG 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.547 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.548 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.551 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.553 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.564 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.565 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.568 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.569 TRACE 11594 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.572 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.573 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.574 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.575 DEBUG 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.575 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.577 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.580 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.581 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:44.587 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:44.588 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:44.597 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:44.597 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.502 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/blog/30", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.502 TRACE 11594 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#blog(Long, Model)
+2020-01-07 14:29:46.505 TRACE 11594 --- [http-nio-9090-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [30, {}]
+2020-01-07 14:29:46.506  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 14:29:46.506  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/blog/30', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.blog()', args=[30, {}]}
+2020-01-07 14:29:46.518  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 14:29:46.519  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : 【result】: blog 
+2020-01-07 14:29:46.521 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 14:29:46.521 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@8d8ffa5] 
+2020-01-07 14:29:46.869 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.959 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.959 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.960 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.967 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.968 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.969 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.969 TRACE 11594 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.967 TRACE 11594 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.971 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.971 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.971 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.972 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.969 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.973 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.973 TRACE 11594 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.973 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.976 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.976 DEBUG 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.977 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.977 DEBUG 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.981 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.982 TRACE 11594 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.983 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/alipay.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.984 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:46.986 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 14:29:46.986 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.986 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 14:29:46.985 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:46.987 DEBUG 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:46.992 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:46.996 TRACE 11594 --- [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-01-07 14:29:46.998 TRACE 11594 --- [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-01-07 14:29:47.001 TRACE 11594 --- [http-nio-9090-exec-9] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3c32f4a9]
+2020-01-07 14:29:47.008 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:47.011 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:47.012 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:47.012 TRACE 11594 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:47.015 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.015 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:47.017 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:47.017 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.018 DEBUG 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:47.018 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:47.019 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:47.020 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.020 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:47.020 TRACE 11594 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:47.022 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.023 DEBUG 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:29:47.035 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-01-07 14:29:47.036 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jan 07 14:29:47 CST 2020, status=404, error=Not Found, message=No message available, path=/images/alipay.jpeg}]
+2020-01-07 14:29:47.113 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.114 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 14:29:47.176 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:29:47.177 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:29:47.183 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:29:47.183 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:23.876 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/blog/30", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:23.878 TRACE 11594 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#blog(Long, Model)
+2020-01-07 14:32:23.879 TRACE 11594 --- [http-nio-9090-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [30, {}]
+2020-01-07 14:32:23.880  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 14:32:23.881  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/blog/30', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.blog()', args=[30, {}]}
+2020-01-07 14:32:23.883  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 14:32:23.884  INFO 11594 --- [http-nio-9090-exec-3] com.xyf.blog.aspect.LogAspect            : 【result】: blog 
+2020-01-07 14:32:23.885 TRACE 11594 --- [http-nio-9090-exec-3] o.s.w.s.v.InternalResourceViewResolver   : View with key [blog] served from cache
+2020-01-07 14:32:23.885 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 14:32:23.885 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@4079ab72] 
+2020-01-07 14:32:23.915 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.031 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.032 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.035 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.037 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.035 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.040 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.040 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.041 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.041 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.044 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.045 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.045 TRACE 11594 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.045 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.046 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.048 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.049 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.049 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.050 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.053 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.053 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.154 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.157 TRACE 11594 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.161 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.162 DEBUG 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.187 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.187 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.187 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.189 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.189 TRACE 11594 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.190 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.191 TRACE 11594 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.193 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.194 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.195 TRACE 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.195 DEBUG 11594 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.195 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.196 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.198 TRACE 11594 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.202 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.203 DEBUG 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:32:24.306 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:32:24.307 TRACE 11594 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:32:24.311 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:32:24.312 DEBUG 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.593 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/blog/30", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.594 TRACE 11594 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xyf.blog.web.IndexController#blog(Long, Model)
+2020-01-07 14:33:11.595 TRACE 11594 --- [http-nio-9090-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [30, {}]
+2020-01-07 14:33:11.595  INFO 11594 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : -----------doBefore(log()之前)-----------
+2020-01-07 14:33:11.595  INFO 11594 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : 【Request】: RequestLog = {url='http://localhost:9090/blog/30', ip='127.0.0.1', classMethod='com.xyf.blog.web.IndexController.blog()', args=[30, {}]}
+2020-01-07 14:33:11.601  INFO 11594 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : -----------doAfter(log()之后)-----------
+2020-01-07 14:33:11.602  INFO 11594 --- [http-nio-9090-exec-8] com.xyf.blog.aspect.LogAspect            : 【result】: blog 
+2020-01-07 14:33:11.605 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.v.InternalResourceViewResolver   : View with key [blog] served from cache
+2020-01-07 14:33:11.605 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2020-01-07 14:33:11.605 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@5d887422] 
+2020-01-07 14:33:11.644 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.929 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/typo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.930 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.929 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/animate.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.931 TRACE 11594 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.932 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.933 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.935 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/me.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.936 TRACE 11594 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.937 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.938 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.940 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.940 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.942 TRACE 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.943 TRACE 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.943 DEBUG 11594 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.943 DEBUG 11594 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.943 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.944 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.946 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.947 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.949 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/WechatIMG4.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.950 TRACE 11594 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.957 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/images/alipay.jpeg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.958 TRACE 11594 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.960 TRACE 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.960 DEBUG 11594 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:11.962 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-07 14:33:11.962 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.963 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2020-01-07 14:33:11.963 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.963 TRACE 11594 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-01-07 14:33:11.963 TRACE 11594 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-01-07 14:33:11.964 TRACE 11594 --- [http-nio-9090-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@77284a71]
+2020-01-07 14:33:11.965 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-01-07 14:33:11.966 TRACE 11594 --- [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jan 07 14:33:11 CST 2020, status=404, error=Not Found, message=No message available, path=/images/alipay.jpeg}]
+2020-01-07 14:33:11.968 TRACE 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:11.968 DEBUG 11594 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2020-01-07 14:33:11.998 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/lib/prism/prism.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.998 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/lib/tocbot/tocbot.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:11.999 TRACE 11594 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:11.999 TRACE 11594 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:12.001 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/lib/qrcode/qrcode.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:12.002 TRACE 11594 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:12.003 TRACE 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:12.003 TRACE 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:12.004 DEBUG 11594 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:12.004 DEBUG 11594 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:12.005 TRACE 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:12.007 DEBUG 11594 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:12.008 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/lib/waypoints/jquery.waypoints.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:12.009 TRACE 11594 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:12.012 TRACE 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:12.012 DEBUG 11594 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-01-07 14:33:12.156 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/bg2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-01-07 14:33:12.157 TRACE 11594 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]] and 4 interceptors
+2020-01-07 14:33:12.162 TRACE 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-01-07 14:33:12.162 DEBUG 11594 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
