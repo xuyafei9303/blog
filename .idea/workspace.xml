@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05eee9d6-696f-46ae-a8b4-dc2752fc3c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/da6e8281-d10e-4d64-a1ab-951d503d3943.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/da6e8281-d10e-4d64-a1ab-951d503d3943/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log.2020-01-05.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log.2020-01-06.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/IBlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/util/MyBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/vo/BlogQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/IBlogRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/IBlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/BlogServiceImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/BlogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/util/MyBeanUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/vo/BlogQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/loggingRoot_IS_UNDEFINED/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITagRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/dao/ITypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/pojo/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/ITypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/service/impl/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyf/blog/web/admin/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITagRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITagRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/dao/ITypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/pojo/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/ITypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TagServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/service/impl/TypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xyf/blog/web/admin/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +153,7 @@
       <updated>1577877749102</updated>
       <workItem from="1577877756653" duration="13704000" />
       <workItem from="1577961963560" duration="27014000" />
-      <workItem from="1578125878910" duration="43494000" />
+      <workItem from="1578125878910" duration="43740000" />
     </task>
     <task id="LOCAL-00001" summary="个人博客，前端页面完成">
       <created>1578202239000</created>
@@ -227,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578202861304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/xuyafei9303/blog">
+      <created>1578370024629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578370024629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +201,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="724" y="210" width="730" height="567" key="#com.intellij.ide.util.MemberChooser/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578366452698" />
-    <state x="497" y="23" key="CommitChangelistDialog2" timestamp="1578202860974">
+    <state x="497" y="23" key="CommitChangelistDialog2" timestamp="1578370023940">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="497" y="23" key="CommitChangelistDialog2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202860974" />
+    <state x="497" y="23" key="CommitChangelistDialog2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578370023940" />
     <state width="483" height="466" key="DebuggerActiveHint" timestamp="1578034786311">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -320,10 +269,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="475" y="126" key="SettingsEditor/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202775092" />
-    <state x="576" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578202890287">
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2" timestamp="1578370028208">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="576" y="259" key="Vcs.Push.Dialog.v2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578202890287" />
+    <state x="576" y="259" key="Vcs.Push.Dialog.v2/343.1103.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1578370028208" />
     <state x="691" y="209" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578233483266">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
