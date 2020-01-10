@@ -21,6 +21,7 @@ public class Comment {
     private String avatar; // 头像
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
+    private boolean adminComment;
 
     // 回复的子类对象
     // 被维护

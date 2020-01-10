@@ -5,6 +5,7 @@ import com.xyf.blog.dao.IBlogRepository;
 import com.xyf.blog.pojo.Blog;
 import com.xyf.blog.pojo.Type;
 import com.xyf.blog.service.IBlogService;
+import com.xyf.blog.util.MarkdownUtils;
 import com.xyf.blog.util.MyBeanUtils;
 import com.xyf.blog.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
@@ -17,13 +18,8 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import javax.persistence.criteria.*;
+import java.util.*;
 
 @Service
 public class BlogServiceImpl implements IBlogService {
@@ -32,8 +28,38 @@ public class BlogServiceImpl implements IBlogService {
     private IBlogRepository blogRepository;
 
     @Override
+    public Long countBlog() {
+        return blogRepository.count();
+    }
+
+    @Override
     public Blog getBlog(Long id) {
         return blogRepository.getOne(id);
+    }
+
+    @Override
+    public Map<String, List<Blog>> archiveBlog() {
+        List<String> years = blogRepository.findGroupByYear();
+        Map<String, List<Blog>> map = new HashMap<>();
+        for (String year : years) {
+            map.put(year, blogRepository.findByYear(year));
+        }
+        return map;
+    }
+
+    @Transactional
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog blog = blogRepository.getOne(id);
+        if (blog == null) {
+            throw new NotFoundException("该博客不存在");
+        }
+        Blog b = new Blog();
+        BeanUtils.copyProperties(blog, b);
+        String content = b.getContent();
+        b.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
+        blogRepository.updateViews(id);
+        return b;
     }
 
     @Override
@@ -72,6 +98,22 @@ public class BlogServiceImpl implements IBlogService {
     @Override
     public Page<Blog> listBlog(String query, Pageable pageable) {
         return blogRepository.findByQuery(query, pageable);
+    }
+
+    @Override
+    public Page<Blog> listBlog(Long tagId, Pageable pageable) {
+        return blogRepository.findAll(new Specification<Blog>() {
+            @Override
+            public Specification<Blog> and(Specification<Blog> other) {
+                return null;
+            }
+
+            @Override
+            public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+                Join join = root.join("tags");
+                return cb.equal(join.get("id"), tagId);
+            }
+        }, pageable);
     }
 
     @Transactional

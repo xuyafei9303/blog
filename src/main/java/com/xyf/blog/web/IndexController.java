@@ -34,7 +34,7 @@ public class IndexController {
 
     @GetMapping("/blog/{id}")
     public String blog(@PathVariable Long id, Model model) {
-        model.addAttribute("blog", blogService.getBlog(id));
+        model.addAttribute("blog", blogService.getAndConvert(id));
         return "blog";
     }
 
@@ -45,5 +45,11 @@ public class IndexController {
         model.addAttribute("page", blogService.listBlog("%" + query + "%", pageable));
         model.addAttribute("query", query);
         return "search";
+    }
+
+    @GetMapping("/footer/newBlog")
+    public String newBlogs(Model model) {
+        model.addAttribute("newBlogs", blogService.listRecommendBlogTop(3));
+        return "_fragments :: newBlogList";
     }
 }

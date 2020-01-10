@@ -4,7 +4,11 @@ spring:
     encoding: utf-8
   profiles:
     active: dev
+  messages:
+    basename: i18n/messages
 loggingout: ${user.dir}/output
 logging:
   level:
     web: trace
+
+comment.avatar: /images/WechatIMG1.jpeg
